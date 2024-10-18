@@ -6,6 +6,7 @@ import serial.tools.list_ports
 
 def find_arduino():
     ports = serial.tools.list_ports.comports()
+    print(ports)
     for port in ports:
         try:
             # Try to open and close the port

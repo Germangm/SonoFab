@@ -1187,7 +1187,8 @@ def startSerialConnection():
     # Start the serial connection
     global ser
     try:
-        ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1)
+        ser = serial.Serial('COM4', 115200, timeout=1) #ser = serial.Serial('COM4', 115200, timeout=1)
+
         time.sleep(1)
         ser.reset_input_buffer()
         print("Serial port opened")
