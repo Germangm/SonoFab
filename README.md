@@ -9,15 +9,19 @@ interpretation, robot control, and print visualization.
 
 ## Features
 
-\- G-code file parsing and translation - Real-time robot arm control -
-Extrusion system management via Arduino - 3D print path visualization -
-User-friendly GUI for print control and monitoring - Adaptive printing
-with real-time adjustments
+- G-code file parsing and translation
+- Real-time robot arm control
+- Extrusion system management via Arduino
+- 3D print path visualization
+-User-friendly GUI for print control and monitoring
+- Adaptive printing with real-time adjustments
 
 ## System Requirements
 
-- Python 3.7+ - Ubuntu 20.04 LTS (or compatible OS) - Mecademic robot
-arm - Arduino-based extrusion control system
+- Python 3.7+
+- Ubuntu 20.04 LTS (or compatible OS)
+- Mecademic robot arm
+- Arduino-based extrusion control system
 
 ## Installation
 
